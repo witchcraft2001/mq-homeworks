@@ -1,8 +1,14 @@
+.trophies {
+  display: flex;
+  flex-direction: column;
+}
+
 .trophy {
   width: 32%;
 }
 
-.trophy:nth-child(3n+2) {
-  margin-left: 2%;
-  margin-right: 2%;
+.trophy:nth-child(n) {
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 30px;
 }
