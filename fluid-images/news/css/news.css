@@ -6,10 +6,11 @@
 }
 
 .card {
-	width: calc(50% - 52px);
+	width: calc(50% - 42px);
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .card:nth-child(even) {
