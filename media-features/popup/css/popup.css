@@ -1,11 +1,15 @@
 .popup__close {
   width: 1.4em;
   height: 1em;
-  font-size: 20px;
 
   position: absolute;
   top: -1.4em;
   right: 0;
+}
+
+.popup__close:before, .popup__close:after {
+  width: 1.4em;
+  height: 0.2em;
 }
 
 @media (max-width:480px) {
@@ -14,7 +18,8 @@
   }
 }
 
-.popup__close:before, .popup__close:after {
-  width: 1.4em;
-  height: 0.2em;
+@media (min-width:481px) {
+  .popup__close {
+    font-size: 20px;
+  }
 }
